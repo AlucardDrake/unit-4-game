@@ -1,0 +1,33 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.name {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.text{
+    background-color: aqua;
+    text-align: center;
+}
+.randomNumber {
+    background-color: green;
+    height: 100px;
+}
+.winCounter{
+    background-color: green;
+    height: 100px;
+    margin-left: 20px;
+}
+body{
+    background-image: url("http://www.zastavki.com/pictures/originals/2015/Backgrounds_Drawing_Penguin_Linux_GNU_108429_.jpg")
+}
+.text2{
+    background-color: green;
+}
+.total {
+    background-color: green;
+    height: 100px;
+}
