@@ -1,9 +1,9 @@
 var randomNumber = (Math.floor(Math.random() * 50));
 var guessNumber = 0;
-var number1 = (Math.floor(Math.random()*5));
-var number2 = (Math.floor(Math.random()*5));
-var number3 = (Math.floor(Math.random()*5));
-var number4 = (Math.floor(Math.random()*5));
+var number1 = (Math.ceil(Math.random()*5));
+var number2 = (Math.ceil(Math.random()*5));
+var number3 = (Math.ceil(Math.random()*5));
+var number4 = (Math.ceil(Math.random()*5));
 var wins = 0;
 var losses = 0;
 $(document).ready(function() {
@@ -76,10 +76,10 @@ $(document).ready(function() {
     function reset(){
         randomNumber=Math.floor(Math.random()*50);
         $('#winNumber').text(randomNumber);
-        number1= (Math.floor(Math.random()*5));
-        number2= (Math.floor(Math.random()*5));
-        number3= (Math.floor(Math.random()*5));
-        number4= (Math.floor(Math.random()*5));
+        number1= (Math.ceil(Math.random()*5));
+        number2= (Math.ceil(Math.random()*5));
+        number3= (Math.ceil(Math.random()*5));
+        number4= (Math.ceil(Math.random()*5));
         guessNumber= 0;
         $('#totalScore').text(guessNumber);
         } 
