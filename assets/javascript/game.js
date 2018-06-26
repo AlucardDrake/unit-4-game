@@ -27,6 +27,7 @@ $(document).ready(function() {
         } else if (guessNumber > randomNumber) {
             losses++;
             $("#losses").text(losses);
+            alert("You lost! Try again!");
             reset();
         }
     });
@@ -41,6 +42,7 @@ $(document).ready(function() {
         } else if (guessNumber > randomNumber) {
             losses++;
             $("#losses").text(losses);
+            alert("You lost! Try again!");
             reset();
         }
     });
@@ -55,6 +57,7 @@ $(document).ready(function() {
         } else if (guessNumber > randomNumber) {
             losses++;
             $("#losses").text(losses);
+            alert("You lost! Try again!");
             reset();
         }
     });
@@ -69,6 +72,7 @@ $(document).ready(function() {
         } else if (guessNumber > randomNumber) {
             losses++;
             $("#losses").text(losses);
+            alert("You lost! Try again!");
             reset();
         }
     });
